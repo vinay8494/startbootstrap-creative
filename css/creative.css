@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
+ * Start Bootstrap - Creative v4.0.0-beta.2 (https://vinay8494.github.io/startbootstrap-creative)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
@@ -14,18 +14,18 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40; }
+  border-color: #e50422; }
 
 hr.light {
   border-color: #fff; }
 
 a {
-  color: #F05F40;
+  color: #e50422;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   a:hover {
-    color: #f05f40; }
+    color: #e40422; }
 
 h1,
 h2,
@@ -36,7 +36,7 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 .bg-primary {
-  background-color: #F05F40 !important; }
+  background-color: #e50422 !important; }
 
 .bg-dark {
   background-color: #212529 !important; }
@@ -81,10 +81,10 @@ body {
   #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #F05F40;
+    color: #e50422;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #f05f40; }
+      color: #e40422; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     font-size: .9rem;
@@ -93,10 +93,10 @@ body {
     color: #212529; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-      color: #F05F40; }
+      color: #e50422; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-      color: #F05F40 !important;
+      color: #e50422 !important;
       background-color: transparent; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
@@ -121,15 +121,15 @@ body {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
         background-color: #fff; }
         #mainNav.navbar-shrink .navbar-brand {
-          color: #F05F40; }
+          color: #e50422; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-            color: #f05f40; }
+            color: #e40422; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
           color: #212529; }
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #F05F40; } }
+            color: #e50422; } }
 
 header.masthead {
   padding-top: 10rem;
@@ -179,7 +179,7 @@ header.masthead {
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(240, 95, 64, 0.9);
+    background: rgba(229, 4, 34, 0.9);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
@@ -210,7 +210,7 @@ header.masthead {
       font-size: 22px; } }
 
 .text-primary {
-  color: #F05F40 !important; }
+  color: #e50422 !important; }
 
 .btn {
   font-weight: 700;
@@ -223,10 +223,42 @@ header.masthead {
   padding: 1rem 2rem; }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40; }
+  background-color: #e50422;
+  border-color: #e50422; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #fff;
-    background-color: #ee4b28 !important; }
+    background-color: #cc041e !important; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+
+.play {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-left: 12px solid;
+  border-bottom: 8px solid transparent;
+  padding: 0 !important;
+  margin-top: 10px !important;
+  cursor: pointer; }
+
+.pause {
+  width: 4px;
+  height: 16px;
+  border-right: 4px solid;
+  border-left: 4px solid;
+  padding: 2px !important;
+  cursor: pointer; }
+
+#mainNav .navbar-nav > li.nav-item > a.pause {
+  margin-top: 1rem; }
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav > li.nav-item > a.play {
+    margin-left: 1rem; }
+  #mainNav .navbar-nav > li.nav-item > a.pause {
+    margin-left: 1rem;
+    margin-top: 10px; }
+  #mainNav .navbar-shrink > li.nav-item > a.pause {
+    border-color: #212529; }
+  #mainNav .navbar-shrink > li.nav-item > a.pause:focus {
+    border-color: #e50422; } }

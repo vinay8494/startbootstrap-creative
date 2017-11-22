@@ -1,0 +1,36 @@
+.play {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-left: 12px solid;
+  border-bottom: 8px solid transparent;
+  padding: 0 !important;
+  margin-top: 10px !important;
+  cursor: pointer;
+}
+.pause {
+  width: 4px;
+  height: 16px;
+  border-right: 4px solid;
+  border-left: 4px solid;
+  padding: 2px !important;
+  cursor: pointer;
+}
+#mainNav .navbar-nav > li.nav-item > a.pause {
+  margin-top: 1rem;
+}
+@media (min-width: 992px) {
+  #mainNav .navbar-nav > li.nav-item > a.play {
+    margin-left: 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.pause {
+    margin-left: 1rem;
+    margin-top: 10px;
+  }
+  #mainNav .navbar-shrink > li.nav-item > a.pause {
+    border-color: $gray-900;
+  }
+  #mainNav .navbar-shrink > li.nav-item > a.pause:focus {
+    border-color: $primary;
+  }
+}

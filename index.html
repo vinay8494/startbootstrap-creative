@@ -23,45 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
-    <style>
-    .play {
-      width: 0;
-      height: 0;
-      border-top: 8px solid transparent;
-      border-left: 12px solid ;
-      border-bottom: 8px solid transparent;
-    }
-    .pause {
-      width: 4px;
-      height: 16px;
-      border-right: 4px solid;
-      border-left: 4px solid;
-    }
-    #mainNav .navbar-nav>li.nav-item>a.pause
-    {
-     margin-top:1rem;
-    }
-    @media (min-width: 992px){
-       #mainNav .navbar-nav>li.nav-item>a.play
-      {
-        margin-left:1rem;
-      }
-       #mainNav .navbar-nav>li.nav-item>a.pause
-      {
-        margin-left:1rem;
-        margin-top:10px;
-      }
-      #mainNav .navbar-shrink>li.nav-item>a.pause
-      {
-        border-color: #212529;
-      }
-      #mainNav .navbar-shrink>li.nav-item>a.pause:focus
-      {
-        border-color: #f05f40;
-      }
-    }
 
-    </style>
   </head>
 
   <body id="page-top">
@@ -93,12 +55,7 @@
               <a class="nav-link js-scroll-trigger" href="#contact">epilogue</a>
             </li>
             <li class="nav-item">
-              <a class="play nav-link js-scroll-trigger" style="padding:0;margin-top:10px;"
-               href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="pause nav-link js-scroll-trigger" style="padding:2px;
-              " href="#"></a>
+              <a class="nav-link js-scroll-trigger pause"></a>
             </li>
 
           </ul>
@@ -415,15 +372,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
-<script>
-$(".pause").click(function() {
-  document.getElementById("audioid").pause();
-});
-
-$(".play").click(function() {
-  document.getElementById("audioid").play();
-});
-</script>
 
   </body>
 
